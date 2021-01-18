@@ -2,15 +2,6 @@ from manim import *
 import math
 
 class Demo(GraphScene):
-    CONFIG = {
-        "x_min": -5,
-        "x_max": 5,
-        "y_min": -4,
-        "y_max": 4,
-        "graph_origin": ORIGIN,
-        "function_color": WHITE,
-        "axes_color": BLUE
-    }
 
     def construct(self):
         self.x_min = -5
